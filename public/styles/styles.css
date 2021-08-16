@@ -1,0 +1,1044 @@
+
+body {
+    background-image: url("../images/gardenback.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+p {
+    font-size: 1em;
+}
+
+img {
+    box-shadow: 3px 4px 10px rgb(63, 63, 63);
+}
+
+textarea {
+    resize: none;
+}
+
+/* Navbar  */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #A34949;
+    box-shadow: 0 3px 7px rgb(48, 48, 48);
+    font-size: 1.2em;
+    z-index: 5;
+}
+
+.container-fluid {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+}
+
+.navigation-logo {
+    
+    font-size: 2.5em;
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 0;
+    margin-left: 20px;
+    text-shadow: 0 2px 2px #000000;
+    color: #FFFFFF !important; 
+}
+
+.navigation-links {
+    color: #FFFFFF !important; 
+    
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+
+.navigation-links:hover {
+    color: #f89696 !important; 
+    
+}
+
+/* Title Section */
+
+.title {
+    position: relative;
+    background-color: rgb(206, 120, 120, 0.85);
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    width: 1200px;
+    font-size: 7em;
+    font-family: 'Parisienne', serif;
+    letter-spacing: 0.01em;
+    text-shadow: 0 2px 2px #000000;
+    
+}
+
+.title-description {
+    font-family: 'Ovo', serif;
+    font-size: 1.5rem;
+    text-shadow: 0 2px 2px #000000;
+}
+
+
+
+/* About us section */
+
+.about-us {
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    background-color: #F8D9D9;
+    color: #A85757;
+}
+
+.about-container {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 100%;
+    top: 15%;
+    
+    
+}
+
+.about-heading {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.about-heading-bottom {
+    margin-top: 50px;
+    
+}
+
+.about-description {
+    margin-top: 50px;
+    
+    
+}
+
+/* Services section */
+
+/* Compassionate care */
+
+.care-section {
+    position: relative;
+    background-color: rgb(206, 120, 120, 0.85);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-care {
+   width: 80%;
+   margin: 0 5%;
+   display: flex;
+}
+
+
+.service-img {
+    position: relative;
+    height: 800px;
+    width: 50%;
+}
+
+.service-dinner-img {
+    position: absolute;
+    height: 40%;
+    left: 28.5px;
+    top: 16%;   
+}
+
+.service-dancing-img {
+    position: absolute;
+    height: 32%;
+    left: 313.5px;
+    bottom: 35%;
+    
+    z-index: 1;
+}
+
+.service-entertain-img {
+    position: absolute;
+    height: 32%;
+    left: 85.5px;
+   
+    bottom: 16%;
+    z-index: 1;
+}
+
+
+.care-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    position: relative;
+    height: 800px;
+    text-align: left;
+   
+}
+
+.care-wrapper h3 {
+    font-size: 4vw;
+    font-family: 'Playfair Display SC', serif;
+    margin-bottom: 10%;
+}
+
+.care-wrapper ul {
+    font-size: calc( 14px + 0.75vw);
+    list-style: none;
+    text-align: left;
+}
+
+/* Recreational activities */
+
+.services-mid {
+    background-color: #F8D9D9;
+    color: #A85757;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5% 0;
+}
+
+.rec-main {
+    display: flex;
+    width: 90%;
+}
+
+.recreational-img {
+    position: relative;
+    padding-right: 100px;
+    height: 800px;
+}
+
+.recreational-img img {
+    position: absolute;
+    
+    height: 30%;
+}
+
+.rec-img-top {
+    top: 12%;
+    left: 50%;
+    z-index: 2;
+}
+
+.rec-img-middle {
+    top: 35%;
+    left: 21%;
+    z-index: 1;
+}
+
+.rec-img-bottom {
+    bottom: 12%;
+    left: 50%;
+}
+
+.recreational-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 800px;
+    margin: auto 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.recreational-wrapper ul {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.recreational-wrapper h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 4vw;
+    margin-bottom: 8%;
+}
+
+/* Services offered */
+
+.services-bottom {
+    background-color: rgba(201, 96, 96, 0.9);
+    color: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.services-bottom ul {
+    list-style: none;
+    width: 80%;
+}
+
+.services-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    left: 5%;
+    text-align: left;
+}
+
+.services-list h3 {
+    font-size: 3em;
+}
+
+.services-list p {
+    font-size: 1.6em;
+}
+
+.services-list li {
+    
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.facility-img {
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.facility-img img{
+    height: 50%;
+    box-shadow: 3px 4px 10px rgb(26, 25, 25);
+}
+
+.facility-img-top {
+    position: absolute;
+    top: 5%;
+    left: 10px;
+    z-index: 1;
+}
+
+.facility-img-bottom {
+    position: absolute;
+    bottom: 5%;
+    left: 50px;
+}
+
+/* Testimonials section */
+
+.testimonials {
+    position: relative;
+    background-color: rgb(252, 191, 191);
+    color: #7a3d3d;
+    padding: 5% 5%;
+}
+
+.testimonial-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.testimonial-client {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.testimonials p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1;
+}
+
+.testimonial-wrapper {
+    padding: 10% 5%;
+    position: relative;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.testimonial-heading {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 5vw;
+    
+}
+
+
+/* Rates */
+
+.rates {
+    padding: 13% 5%;
+    background-color: rgba(201, 96, 96, 0.9);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.rates-heading {
+    font-size: 4vw;
+    margin-bottom: 5%;
+}
+
+.rates-description {
+    margin: 0 auto;
+    font-size: 19px;
+    width: 80%;
+    text-align: left;
+}
+
+/* Contact Section*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 10%;
+    background-color: #F8D9D9;
+    color: #A85757;
+}
+
+.contact-info {
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-heading {
+    font-size: 3vw;
+    margin-bottom: 20px;
+    
+}
+
+.contact-info h6 {
+    font-size: 1.8vw;
+    margin-bottom: 30px;
+}
+
+.contact-img {
+    margin-top: 40px;
+}
+
+.facebook-icon {
+    margin-top: 15px;
+    font-size: 6vw;
+}
+
+.send-message-heading {
+    display: none;
+}
+
+.contact-form-section {
+    width: 100%;  
+    text-align: left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-form-section form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-section input {
+    height: 34px;
+    margin-bottom: 7px;
+}
+
+.contact-form-section textarea{
+    margin-bottom: 30px;
+}
+
+.contact-form-section input, textarea {
+    width: 100%; 
+    border: none;
+    box-shadow: 1px 1px 3px rgb(185, 183, 183);
+    outline: none;
+    border-radius: 4px;
+}
+
+.contact-form-section button {
+    width: 100%; 
+    margin-bottom: 7px;
+    background-color: rgb(206, 120, 120);
+    outline: none;
+    height: 40px;
+    letter-spacing: 1.5;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 4px rgb(85, 84, 84);
+}
+
+.contact-form-section button:hover {
+    width: 100%; 
+    margin-bottom: 7px;
+    background-color: rgb(197, 81, 81);
+    outline: none;
+    height: 40px;
+    letter-spacing: 1.5;
+    color: #fff;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(85, 84, 84);
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 5% 2%;
+    width: 100%;
+    height: 28%;
+    background-color: #A34949;
+    box-shadow: 0 3px 7px rgb(26, 26, 26);
+    font-size: 18px;
+    z-index: 5;
+}
+
+.footer h6 {
+    margin-bottom: 25px;
+    margin-left: 0;
+}
+
+.footer-links {
+    
+   display: flex;
+   align-content: center;
+   justify-content: center;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin: 20px 30px;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    
+    color: rgb(214, 148, 148);
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.signature {
+    font-size: 14px;
+    
+    color: #fff;
+}
+
+
+
+/* media queries */
+
+@media screen and (min-width: 1441px) {
+    .services-list {
+        margin-left: 80px;
+    }
+
+    .nav-item {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+
+   
+    .navbar ul {
+        
+        width: 650px;
+    }
+
+    .title h1 {
+        width: 700px;
+    }
+
+    .title-description {
+        width: 700px;
+    }
+
+    .about-container {
+        width: 700px;
+    }
+
+    .about-description {
+        width: 700px;
+    }
+
+    .services-care {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .care-wrapper {
+        height: 450px;
+    }
+
+    .care-wrapper h3 {
+        font-size: 35px;
+    }
+
+    .service-img {
+        height: 450px;
+        
+    }
+
+    .service-dinner-img {
+        position: absolute;
+        height: 40%;
+        left: 28.5px;
+        top: 16%;   
+    }
+    
+    .service-dancing-img {
+        
+        height: 32%;
+        left: 190px;
+        bottom: 35%;
+        
+        z-index: 1;
+    }
+    
+    .service-entertain-img {
+        position: absolute;
+        height: 32%;
+        left: 65px;
+       
+        bottom: 16%;
+        z-index: 1;
+    }
+
+    .services-bottom {
+        margin: 0;
+    }
+
+    .services-wrapper {
+        position: relative;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+    }
+
+    .services-list {
+        width: 600px;
+        padding: 40px 0 40px 100px;
+        
+    }
+
+    .services-list h3, ul, p { 
+        width: 600px;
+    }
+
+    .services-list ul {
+        width: 600px;
+        
+    }
+
+    .services-offered {
+        padding: 0;
+    }
+
+    .rec-main {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-mid {
+        margin: 0;
+    }
+
+    .recreational-wrapper {
+        height: 600px;
+        
+    }
+
+    .recreational-img {
+        
+        height: 600px;
+    }
+
+    .rec-main h3 {
+        padding-left: 40px;
+    }
+
+    .rec-main li {
+        width: 400px;
+    }
+
+    .facility-img {
+        display: none;
+    }
+
+    .rates-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .contact-info {
+        width: 614px;
+    }
+
+    .facebook-icon {
+        margin-bottom: 25px;
+    }
+
+    .send-message-heading {
+        width: 614px;
+        text-align: left;
+    }
+    
+
+    .footer {
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer p {
+        margin-top: 20px;
+    }
+
+    .footer h6 {
+        margin-top: 40px;
+    }
+
+    .footer-list {
+        
+        padding: 0;
+    }
+
+    
+
+    .footer-list a {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .footer-links ul {
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #A34949;
+        transition: 0.5s;
+        margin: auto -16px;
+        text-align: right;
+    }
+
+    .navbar-collapse a {
+        margin-bottom: 50px;
+    }  
+}
+
+@media screen and (max-width: 720px) {
+
+    p {
+        font-size: 1em;
+    }
+
+    .navigation-logo { 
+        font-size: 45px;
+    }
+
+
+    h1 { 
+     top: 50%;
+     width: 350px;
+     font-size: 50px;
+     
+    }
+
+    .title-description {
+        top: 60%;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .title-wrapper h1 {
+        width: 300px;
+    }
+
+    .about-container {
+        
+        width: 80vw;
+        height: 100%;
+        margin-bottom: 8%;
+        top: 10%;
+    }
+
+    .about-container p {
+        
+        font-size: 1em;
+        
+    }
+
+    .about-heading {
+        
+        font-size: 1.5em;
+    }
+
+    .services-care {
+        height: 70vh;
+        
+    }
+
+    .care-wrapper {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .care-wrapper ul {
+        font-size: 18px;
+        padding-left: 0;
+    }
+    
+    .services-care h3 {
+        font-size: 36px;
+    }
+
+    .service-img {
+        display: none;
+    }
+
+    .services-mid {
+        margin: 0;
+    }
+
+
+    .recreational-img {
+        display: none;
+    }
+
+    .rec-main {
+        text-align: center;
+    }
+
+    .recreational-wrapper {
+        width: 75%;
+        height: 700px;
+    }
+
+    .services-bottom {
+        margin: 0;
+        padding: 70px 10px 70px 0;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .services-bottom h3 {
+        font-size: 35px;
+    }
+
+    .services-bottom p {
+        font-size: 20px;
+    }
+
+    .services-bottom ul {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .services-mid {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-mid h3 {
+        font-size: 35px;
+    }
+
+    .services-mid ul {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .facility-img {
+        display: none;
+    }
+
+    .rates p, ul {
+        font-size: 14px;
+    }
+
+    
+    .rates-heading {
+        font-size: 35px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .contact-info h5 {
+        font-size: 20px;
+    }
+
+    .contact-info h6 {
+        font-size: 16px;
+    }
+
+    .testimonials {
+        padding-top: 25%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials img {
+      height:100%;
+      object-fit: cover;
+    }
+
+    .testimonials h2 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .testimonials p {
+        font-size: 16px;
+    }
+
+    .testimonial-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .facebook-icon {
+        font-size: 40px;
+    }
+
+    .footer {
+        height: 310px;
+    }
+    
+    .footer h6 {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .footer ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer li {
+        margin-bottom: 5px;
+    }
+
+    .signature {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .title-wrapper h1 {
+        width: 280px;
+    }
+
+    .testimonials h2 {
+        font-size: 28px;
+    }
+
+    .recreational-wrapper h3 {
+        
+        font-size: 30px;
+    }
+
+    .services-care h3 {
+        font-size: 30px;
+    }
+}
+
+
+
